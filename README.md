@@ -1,4 +1,4 @@
-# This is a Template for a React Application
+# This is a template for a React application
 To get started type in the Terminal:
 ```
 npm install
