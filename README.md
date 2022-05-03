@@ -9,3 +9,11 @@ git clone
 ```
 npm install
 ``` 
+4. Build your webpack with the command
+```
+npm run start
+```
+5. Run the server at localhost:3000
+```
+npm run dev
+```
