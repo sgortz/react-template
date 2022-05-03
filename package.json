@@ -4,10 +4,10 @@
   "description": "Template for Applications using React, Babel, Webpack, Express.js & Dotenv",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode=development",
-    "build": "webpack --mode=production",
-    "dev": "webpack serve --open"
+    "start": "nodemon server/index.js",
+    "dev:react": "webpack --config ./webpack.config.js --mode development -w",
+    "test": "jest",
+    "build": "webpack --mode=production"
   },
   "author": "Sabrina Gortz",
   "license": "UNLICENSED",
@@ -18,6 +18,7 @@
     "express": "^4.17.3",
     "firebase": "^9.7.0",
     "moment": "^2.29.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
