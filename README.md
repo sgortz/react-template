@@ -9,11 +9,11 @@ git clone
 ```
 npm install
 ``` 
-4. Build your webpack with the command
+4. Run your webpack with the command
 ```
-npm run start
+npm run dev:react   
 ```
 5. Run the server at localhost:3000
 ```
-npm run dev
+npm run start
 ```
