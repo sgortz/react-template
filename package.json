@@ -4,7 +4,9 @@
   "description": "Template for Applications using React, Babel, Webpack, Express.js & Dotenv",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
   "author": "Sabrina Gortz",
   "license": "UNLICENSED",
